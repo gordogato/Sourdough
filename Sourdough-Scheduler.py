@@ -62,7 +62,7 @@ def calc_time(hour,minute):
 #Print Time Schedule
 
 print("\nStarted Levain @ ")
-print(start_time)
+print(calc_time(0,0))
 
 print("\nAutolysed Dough @ ")
 print(calc_time(4,0))
