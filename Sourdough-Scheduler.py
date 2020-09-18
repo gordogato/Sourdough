@@ -25,9 +25,10 @@
 ##
 ################ BAKE #################################
 ##
-##    Preheat Oven & Dutch Oven @500F/260C
+##    Preheat Oven & Dutch Oven for 1 Hour @500F/260C
 ##    Bake Covered for 20 Minutes
-##    Lower Temperature to 450F/232C for ~20 Minutes
+##    Uncover & Lower Temperature to 450F/232C
+##    Continue Baking for ~20 Minutes
 ##
 #######################################################
 
@@ -44,20 +45,23 @@ print("############### INGREDIENTS #############################\n"\
         "\n\t70g Room Temperature Water"\
         "\n\t#######################################"\
         "\n\tAdd to Quart Mason Jar and Cover Loosly"\
-        "\n\tStore @77F/25C"\
-"\n"\
+        "\n\tStore @77F/25C\n"\
     "\nAutolyse Dough (85% Hydration)"\
         "\n\t810g Bread Flour"\
         "\n\t90g Whole Wheat Flour"\
         "\n\t580g Room Temperature Water"\
         "\n\t#######################################"\
         "\n\tMix in Large Bowl and Cover Loosly"\
-        "\n\tStore @77F/25C"\
-"\n"\
+        "\n\tStore @77F/25C\n"\
     "\nSalt Mixture"\
         "\n\t100g Room Temperature Water"\
-        "\n\t18g Fine Sea Salt"\
-"\n")
+        "\n\t18g Fine Sea Salt\n"\
+    "\nBaking Instructions"\
+        "\n\tPreheat Oven & Dutch Oven for 1 Hour @500F/260C"\
+        "\n\tBake Covered for 20 Minutes"\
+        "\n\tUncover & Lower Temperature to 450F/232C"\
+        "\n\tContinue Baking for ~20 Minutes\n"\
+)
 
 
 #Get Start Time from User
