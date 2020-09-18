@@ -94,7 +94,7 @@ print(calc_time(8,35))
 print("\nSplit & Shape @ ")
 print(calc_time(9,05))
 
-print("\nCold Proof @ ")
+print("\nCold Proof for 12 Hours Minimum @ ")
 print(calc_time(9,25))
 
 print("\nEarliest Bake @ ")
