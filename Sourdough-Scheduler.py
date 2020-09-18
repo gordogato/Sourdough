@@ -1,5 +1,5 @@
 ############### SOURDOUGH RECIPE SCRIPT #################
-
+## Python3
 ############### INGREDIENTS #############################
 ##
 ##    Levain (100% Hydration)
@@ -65,7 +65,7 @@ print("############### INGREDIENTS #############################\n"\
 
 
 #Get Start Time from User
-start_time = datetime.datetime.strptime(raw_input("Start time? HHMM : "), "%H%M")
+start_time = datetime.datetime.strptime(input("Start time? HHMM : "), "%H%M")
 
 #Calculate Time for Sourdough Recipe Steps
 def calc_time(hour,minute):
@@ -86,15 +86,15 @@ print("\nFold #1 @ "+calc_time(5,35))
 
 print("\nFold #2 @ "+calc_time(5,50))
 
-print("\nFold #3 @ "+calc_time(6,05))
+print("\nFold #3 @ "+calc_time(6,5))
 
 print("\nFold #4 @ "+calc_time(6,35))
 
-print("\nFold #5 @ "+calc_time(7,05))
+print("\nFold #5 @ "+calc_time(7,5))
 
 print("\nFold #6 @ "+calc_time(8,35))
 
-print("\nSplit & Shape @ "+calc_time(9,05))
+print("\nSplit & Shape @ "+calc_time(9,5))
 
 print("\nCold Proof for 12 Hours Minimum @ "+calc_time(9,25))
 
