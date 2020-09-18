@@ -72,7 +72,7 @@ def calc_time(hour,minute):
 
 print("\nStarted Levain @ "+calc_time(0,0))
 
-print("\nAutolysed Dough @ "+calc_time(4,0))
+print("\nAutolyse Dough @ "+calc_time(4,0))
 
 print("\nMix Levain into Dough using Rubaud Method @ "+calc_time(5,0))
 
