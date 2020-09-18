@@ -29,7 +29,8 @@ import datetime
 from datetime import timedelta
 
 #Print Ingredients
-print("\n############### INGREDIENTS #############################\n"\
+print("")
+print("############### INGREDIENTS #############################\n"\
       "\nLevain (100% Hydration)"\
         "\n\t35g Sourdough Starter"\
         "\n\t35g Whole Wheat Flour"\
@@ -37,14 +38,16 @@ print("\n############### INGREDIENTS #############################\n"\
         "\n\t70g Room Temperature Water"\
         "\n\t#######################################"\
         "\n\tAdd to Quart Mason Jar and Cover Loosly"\
-        "\n\tStore @77F/25C\n"\
+        "\n\tStore @77F/25C"\
+"\n"\
     "\nAutolyse Dough (85% Hydration)"\
         "\n\t810g Bread Flour"\
         "\n\t90g Whole Wheat Flour"\
         "\n\t580g Room Temperature Water"\
         "\n\t#######################################"\
         "\n\tMix in Large Bowl and Cover Loosly"\
-        "\n\tStore @77F/25C\n"\
+        "\n\tStore @77F/25C"\
+"\n"\
     "\nSalt Mixture"\
         "\n\t100g Room Temperature Water"\
         "\n\t18g Fine Sea Salt"\
@@ -61,43 +64,28 @@ def calc_time(hour,minute):
 
 #Print Time Schedule
 
-print("\nStarted Levain @ ")
-print(calc_time(0,0))
+print("\nStarted Levain @ "+calc_time(0,0))
 
-print("\nAutolysed Dough @ ")
-print(calc_time(4,0))
+print("\nAutolysed Dough @ "+calc_time(4,0))
 
-print("\nMix Levain into Dough using Rubaud Method @ ")
-print(calc_time(5,0))
+print("\nMix Levain into Dough using Rubaud Method @ "+calc_time(5,0))
 
-print("\nAdd Salt Mixture & Slap/Fold @ ")
-print(calc_time(5,20))
+print("\nAdd Salt Mixture & Slap/Fold @ "+calc_time(5,20))
 
-print("\nFold #1 @ ")
-print(calc_time(5,35))
+print("\nFold #1 @ "+calc_time(5,35))
 
-print("\nFold #2 @ ")
-print(calc_time(5,50))
+print("\nFold #2 @ "+calc_time(5,50))
 
-print("\nFold #3 @ ")
-print(calc_time(6,05))
+print("\nFold #3 @ "+calc_time(6,05))
 
-print("\nFold #4 @ ")
-print(calc_time(6,35))
+print("\nFold #4 @ "+calc_time(6,35))
 
-print("\nFold #5 @ ")
-print(calc_time(7,05))
+print("\nFold #5 @ "+calc_time(7,05))
 
-print("\nFold #6 @ ")
-print(calc_time(8,35))
+print("\nFold #6 @ "+calc_time(8,35))
 
-print("\nSplit & Shape @ ")
-print(calc_time(9,05))
+print("\nSplit & Shape @ "+calc_time(9,05))
 
-print("\nCold Proof for 12 Hours Minimum @ ")
-print(calc_time(9,25))
+print("\nCold Proof for 12 Hours Minimum @ "+calc_time(9,25))
 
-print("\nEarliest Bake @ ")
-print(calc_time(21,25))
-
-
+print("\nEarliest Bake @ "+calc_time(21,25))
