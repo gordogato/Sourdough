@@ -56,7 +56,7 @@ start_time = datetime.datetime.strptime(raw_input("Start time? HHMM : "), "%H%M"
 
 #Calculate Time for Sourdough Recipe Steps
 def calc_time(hour,minute):
-    fulltime = start_time + timedelta(hours=hour,minutes=minute)
+    fulltime = datetime.datetime.strftime(start_time + timedelta(hours=hour,minutes=minute),"%H:%M")
     return fulltime
 
 #Print Time Schedule
