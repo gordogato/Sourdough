@@ -23,6 +23,12 @@
 ##        100g Room Temperature Water
 ##        18g Fine Sea Salt
 ##
+################ BAKE #################################
+##
+##    Preheat Oven & Dutch Oven @500F/260C
+##    Bake Covered for 20 Minutes
+##    Lower Temperature to 450F/232C for ~20 Minutes
+##
 #######################################################
 
 import datetime
