@@ -29,8 +29,7 @@ import datetime
 from datetime import timedelta
 
 #Print Ingredients
-print("")
-print("############### INGREDIENTS #############################\n"\
+print("\n############### INGREDIENTS #############################\n"\
       "\nLevain (100% Hydration)"\
         "\n\t35g Sourdough Starter"\
         "\n\t35g Whole Wheat Flour"\
@@ -38,16 +37,14 @@ print("############### INGREDIENTS #############################\n"\
         "\n\t70g Room Temperature Water"\
         "\n\t#######################################"\
         "\n\tAdd to Quart Mason Jar and Cover Loosly"\
-        "\n\tStore @77F/25C"\
-"\n"\
+        "\n\tStore @77F/25C\n"\
     "\nAutolyse Dough (85% Hydration)"\
         "\n\t810g Bread Flour"\
         "\n\t90g Whole Wheat Flour"\
         "\n\t580g Room Temperature Water"\
         "\n\t#######################################"\
         "\n\tMix in Large Bowl and Cover Loosly"\
-        "\n\tStore @77F/25C"\
-"\n"\
+        "\n\tStore @77F/25C\n"\
     "\nSalt Mixture"\
         "\n\t100g Room Temperature Water"\
         "\n\t18g Fine Sea Salt"\
