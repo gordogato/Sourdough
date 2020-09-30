@@ -92,7 +92,7 @@ print("\nFold #4 @ "+calc_time(6,35))
 
 print("\nFold #5 @ "+calc_time(7,5))
 
-print("\nFold #6 @ "+calc_time(8,35))
+print("\nFold #6 @ "+calc_time(7,35))
 
 print("\nSplit & Shape @ "+calc_time(9,5))
 
